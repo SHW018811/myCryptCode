@@ -6,7 +6,7 @@
 #include <stdint.h>
 
 //User define header
-#include "./TableSet/Table.h"
+#include "Table.h"
 #include "desFunction.h"
 
 #endif //ALLHEADER_H

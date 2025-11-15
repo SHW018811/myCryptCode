@@ -11,6 +11,7 @@
         [X] : Look at each steps and typing to code.
             [O] : Make a permute function code.
             [O] : Make a split function code.
+            [X] : Generate round keys
             [X] : Make a mixer function code.
             [X] : Make about round and mixer.
             [X] : Insert to swapper in round loop.
@@ -25,6 +26,8 @@ int main(void){
     permute(64, 64, plaintext, &ciphertext, IP);
     split(64, 32, ciphertext, &leftBlock, &rightBlock);
     
+    keyGenerator(key, &roundKey[0], shiftCount[0]);
+    printf("%llX", roundKey[0]);
     //Start round
     while(round <= 16){
 
