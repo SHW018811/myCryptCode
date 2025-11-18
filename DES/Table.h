@@ -13,6 +13,8 @@ extern const uint8_t FP[64];
 extern const uint8_t parityTable[56];
 extern const uint8_t keyCompressTable[48];
 extern const uint8_t shiftCount[16];
-
+extern const uint8_t expansionTable[48];
+extern const uint8_t sBox[8][4][16];
+extern const uint8_t straightPBox[32];
 
 #endif //TABLE_H
