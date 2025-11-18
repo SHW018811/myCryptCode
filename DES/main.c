@@ -8,14 +8,14 @@
 
     todoList {
         [O] : Write to encryption steps DES.
-        [X] : Look at each steps and typing to code.
+        [O] : Look at each steps and typing to code.
             [O] : Make a permute function code.
             [O] : Make a split function code.
-            [X] : Generate round keys
-            [X] : Make a mixer function code.
-            [X] : Make about round and mixer.
-            [X] : Insert to swapper in round loop.
-            [X] : combine and permute. (Write)
+            [O] : Generate round keys
+            [O] : Make a mixer function code.
+            [O] : Make about round and mixer.
+            [O] : Insert to swapper in round loop.
+            [O] : combine and permute. (Write)
     }
     => Result : Notes file can be crypt.
 ==============================================================================*/
